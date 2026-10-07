@@ -1,6 +1,6 @@
 # Slide Groups
 
-Keynote-style indented, collapsible slides for the Google Slides filmstrip. A Chrome extension.
+Keynote-style slide groups for Google Slides: drag slides into a group, collapse it, and label it. A Chrome extension.
 
 ## Install
 
