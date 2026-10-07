@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Slide Groups",
+  "version": "0.2.0",
+  "description": "Keynote-style indented, collapsible slide groups in the Google Slides filmstrip.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/presentation/d/*"],
+      "js": ["store.js", "content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
